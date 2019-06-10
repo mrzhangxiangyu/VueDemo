@@ -1,8 +1,8 @@
 <template>
   <div class="navDiv">
     <div class="nav">
-      <div><h1>某某小说网</h1></div>
-      <div >
+      <div style="float:left;margin-left:10px"> <h1>某某小说网</h1></div>
+      <div style="float:right;margin-right:10px">
         <a href="">登录</a>
         &nbsp;
         <a href="">注册</a>
@@ -18,16 +18,14 @@ export default {
 
 <style>
   .navDiv{
-    width: 100%;
+    width: 1000px;
     background-color: cadetblue;
+        margin: 0 auto;
   }
   .nav{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
     margin: 0 auto;
     height: 80px;
-    width: 60%;
+    width: 1000px;
     color: honeydew;
   }
   .nav h1{

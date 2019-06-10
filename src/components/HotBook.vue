@@ -50,6 +50,8 @@ export default{
 
 <style>
   .hotBookDiv{
+    float: left;
+    margin-left: 10px;
     width: 20%;
     margin-top: 10px;
   }

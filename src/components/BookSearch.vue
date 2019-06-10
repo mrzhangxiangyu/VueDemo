@@ -61,6 +61,7 @@ div{
 }
 .bookSearchDiv{
   width: 60%;
+  float: right;
 }
   .bookSearchUl{
     padding: 0;
@@ -79,7 +80,7 @@ div{
     height: 42px;
     line-height: 40px;
     text-align: center;
-    width: 11%;
+    width: 50px;
     margin: 0;
     padding: 0;
     border: 1px #ccc solid;

@@ -27,13 +27,16 @@ export default {
 <style>
   body{
     color: cadetblue;
+    width: 100%;
+  }
+  #app{
+    width: 100%;
+    height: 100px;
+    border-color: aqua
   }
   #content{
-    width:64%;
+    width:1000px;
     padding-left: 1%;
     margin: 0 auto;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
   }
 </style>
